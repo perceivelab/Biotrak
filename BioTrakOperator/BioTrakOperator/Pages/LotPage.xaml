@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Pages.LotPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Nome lotto" FontSize="Large"/>
+                <Entry x:Name="txtNameLot"/>
+                <Label Text="Id lotto" FontSize="Large"/>
+                <Entry x:Name="txtIDLot"/>
+                
+                <StackLayout Margin="0,20,0,0" Orientation="Horizontal">
+                    <Label Text="Materie prime" HeightRequest="40" FontSize="Title"/>
+                    <Button x:Name="btnAddQR" Text="+" HeightRequest="40" Clicked="AddNewItem"/>
+                </StackLayout>
+                <StackLayout Margin="5,5,5,5">
+                    <Frame CornerRadius="10"  OutlineColor="Red" Padding="10">
+                        <ListView x:Name="lstItems" ItemsSource="{Binding Items}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextCell Text="{Binding Name}" />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+
+                        </ListView>
+                    </Frame>
+                </StackLayout>
+                <Button Text="Aggiungi" Clicked="SaveItem" x:Name="btnSave"/>
+                <Button Text="Termina" Clicked="TerminateItem" x:Name="btnTerminate" IsVisible="false"/>
+
+
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

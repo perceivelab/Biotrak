@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Pages.ListOperationsPage"
+             xmlns:local="clr-namespace:BioTrakOperator.Pages" BackgroundColor="Transparent" Title="Operazioni">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="logo.png" WidthRequest="250" Margin="0,10,0,50"/>
+            <Button x:Name="btnLots" Text="Produzioni" Clicked="ShowLots" TextColor="#2196F3" BorderColor="#2196F3" BorderWidth="2" BackgroundColor="Transparent"
+                    VerticalOptions="Center" HorizontalOptions="Center" FontSize="34" WidthRequest="300" CornerRadius="10" Margin="00"></Button>
+            <Button x:Name="btnAcceptance" Text="Accetazione" Clicked="AcceptProducts" TextColor="#2196F3"  BorderColor="#2196F3" BorderWidth="2"
+                    VerticalOptions="Center" HorizontalOptions="Center" FontSize="34"  BackgroundColor="Transparent" WidthRequest="300" CornerRadius="10"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

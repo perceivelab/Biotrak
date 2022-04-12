@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net48</TargetFrameworks>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Javier Suarez</Authors>
+    <Owners>Javier Suarez</Owners>
+    <PackageProjectUrl>https://github.com/jsuarezruiz/TemplateUI</PackageProjectUrl>
+    <Summary>A set of templated controls for Xamarin.Forms.</Summary>
+    <PackageTags>xamarin, xamarin-forms, control, template</PackageTags>
+    <Title>TemplateUI</Title>
+    <Description>A set of templated controls for Xamarin.Forms.</Description>
+    <PackageId>TemplateUI</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGetizer" Version="0.7.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2125" />
+  </ItemGroup>
+  
+</Project>

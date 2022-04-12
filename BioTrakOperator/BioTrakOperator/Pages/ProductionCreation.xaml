@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Pages.ProductionCreation">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Inserisci il codice di produzione" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+            <StackLayout Orientation="Horizontal">
+                <CheckBox CheckedChanged="CheckBox_CheckedChanged" IsChecked="False"/>
+                <Label Text="Hai un codice di produzione?"/>        
+            </StackLayout>
+            <Entry x:Name="ProductionCode" IsVisible="False"/>
+            <Button Text="Crea" Clicked="CreateNewProduction"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

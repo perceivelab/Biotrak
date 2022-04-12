@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BioTrakContentPage  xmlns:pages="clr-namespace:BioTrakOperator.Pages" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Pages.TrackingPage" 
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.TreeView;assembly=Syncfusion.SfTreeView.XForms"
+             xmlns:treeviewengine="clr-namespace:Syncfusion.TreeView.Engine;assembly=Syncfusion.SfTreeView.XForms">
+    <pages:BioTrakContentPage.Content>
+        <syncfusion:SfTreeView x:Name="treeView" IsAnimationEnabled="true">
+            <!--syncfusion:SfTreeView.Nodes>
+                <treeviewengine:TreeViewNode Content="Australia">
+                    <treeviewengine:TreeViewNode.ChildNodes>
+                        <treeviewengine:TreeViewNode Content="New South Wales">
+                            <treeviewengine:TreeViewNode.ChildNodes>
+                                <treeviewengine:TreeViewNode Content="Sydney"/>
+                            </treeviewengine:TreeViewNode.ChildNodes>
+                        </treeviewengine:TreeViewNode>
+                    </treeviewengine:TreeViewNode.ChildNodes>
+                </treeviewengine:TreeViewNode>
+                <treeviewengine:TreeViewNode Content="United States of America">
+                    <treeviewengine:TreeViewNode.ChildNodes>
+                        <treeviewengine:TreeViewNode Content="New York"/>
+                        <treeviewengine:TreeViewNode Content="California">
+                            <treeviewengine:TreeViewNode.ChildNodes>
+                                <treeviewengine:TreeViewNode Content="San Francisco"/>
+                            </treeviewengine:TreeViewNode.ChildNodes>
+                        </treeviewengine:TreeViewNode>
+                    </treeviewengine:TreeViewNode.ChildNodes>
+                </treeviewengine:TreeViewNode>
+            </syncfusion:SfTreeView.Nodes-->
+        </syncfusion:SfTreeView>
+
+    </pages:BioTrakContentPage.Content>
+</pages:BioTrakContentPage>

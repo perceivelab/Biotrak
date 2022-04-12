@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BioTrakFlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Pages.OperationsPage"
+             xmlns:pages="clr-namespace:BioTrakOperator.Pages">
+    <pages:BioTrakFlyoutPage.Flyout>
+    <pages:OperationsPageFlyout x:Name="FlyoutPage" />
+  </pages:BioTrakFlyoutPage.Flyout>
+  <FlyoutPage.Detail>
+    <NavigationPage>
+      <x:Arguments>
+        <pages:OperationsPageDetail />
+      </x:Arguments>
+    </NavigationPage>
+  </FlyoutPage.Detail>
+</pages:BioTrakFlyoutPage>

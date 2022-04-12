@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:BioTrakContentPage  xmlns:pages="clr-namespace:BioTrakOperator.Pages" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:zx="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="BioTrakOperator.Pages.ScannerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <zx:ZXingScannerView IsScanning="True" OnScanResult="ZXingScannerView_OnScanResult" x:Name="scanner"/>
+        </StackLayout>
+    </ContentPage.Content>
+</pages:BioTrakContentPage>

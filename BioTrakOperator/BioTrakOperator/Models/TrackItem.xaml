@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BioTrakOperator.Models.TrackItem">
+  <ViewCell.View>
+      <StackLayout Orientation="Horizontal">
+            <Grid>
+                <Label x:Name="lblNameItem" />
+                <ImageButton Source="delete.png" Clicked="DeleteItemFromTrack"/>
+            </Grid>
+        </StackLayout>
+  </ViewCell.View>
+</ViewCell>
