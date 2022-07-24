@@ -10,7 +10,7 @@ namespace BioTrakServices
 {
     public class ServerInterface
     {
-        private static string SERVER_ADDRESS = "http://198.211.110.128:8080/api/";
+        private static string SERVER_ADDRESS = "http://151.97.13.224:8080/api/";
         private class RequestClient
         {
             public RestClient Client;
