@@ -1,0 +1,1 @@
+export type SwiperProps = Record<'onPress', () => void>;

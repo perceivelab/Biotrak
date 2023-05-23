@@ -1,0 +1,9 @@
+com/biotrack/biotrack/BuildConfig.java
+ com.biotrack.biotrack.BuildConfig
+com/biotrack/biotrack/MainApplication.java
+ com.biotrack.biotrack.MainApplication
+ com.biotrack.biotrack.MainApplication$1
+com/biotrack/biotrack/MainActivity.java
+ com.biotrack.biotrack.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

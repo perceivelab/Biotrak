@@ -1,3 +1,5 @@
 # Biotrak
 
-# App developed in React Native
+## Getting started
+
+Read package.json script to run application

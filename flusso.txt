@@ -1,0 +1,19 @@
+utilizzo dello scanner 
+1 ANONIMO
+ . scannerizza TRACCIA
+ . chiamata get alla supplyChain
+
+2 PRODUTTORE 
+ . scannerizza TRACCIA
+ . accetta la merce in entrata 
+ . chiamata di concatenamento 
+
+ . scannerizza - NON UNA TRACCIA
+ . crea una nuova materia prima //scan BATCHCODE --- PRODOTTO NON BIOTRACK
+ . chimata POST creazione nuova track --- ID 
+ . chiamata di concatenamento per Inizio produzione --- CONCAT
+
+3 TRASPORTATORE 
+ . scannerizza TRACCIA
+ . accetta la merce da trasportare 
+ . chiamata di concatenamento 
